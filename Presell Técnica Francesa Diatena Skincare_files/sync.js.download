@@ -1,0 +1,5 @@
+(function (w, d) {
+'use strict';
+if (w.location.search && w.location.search.length>2) {var i=new Image(),s=d.getElementById('devicestore');
+i.src='//tool.converte.ai/d-store/'+s.dataset.app+'/sync'+s.dataset.mode[0]+'.gif'+w.location.search+'&dsid=cbf9584c-b69a-4e12-8898-0a88ad2ca4fb&modules='+s.dataset.modules;}
+})(window, document);
